@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Rellene los datos</legend>
+            <div class="formularioAll">
+            <label for="formularioNombre">Nombre:</label>
+            <input type="text" class="formularios" id="formularioNombre" name="nombre" placeholder="Escribe tu nombre" required="true"/><br/>
+            </div>
+            <div class="formularioAll">
+            <label for="formularioApellidos">Apellidos:</label>
+            <input type="text" class="formularios" id="formularioApellidos" name="apellidos" placeholder="Escribe tus apellidos" required="true"/><br/>
+            </div>
+            <div class="formularioAll">
+            <label for="formularioFecha">Fecha de nacimiento:</label>
+            <input type="date" class="formularios" id="formularioFecha" name="fecha" required="true"/><br/>
+            </div>
+            <div class="formularioAll">
+            <label>Género:</label><br/>
+            <input type="radio" id="hombre" name="genero" value="hombre" />
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="mujer" />
+            <label for="mujer">Mujer</label><br/>
+            </div>
+            <div class="botones">
+                <input type="button" class="boton" id="boton" value="Enviar" onclick="accion()"/>
+                <input type="reset" class="boton" placeholder="Hola" value="Reset"/>
+            </div>
+        </fieldset>
+        <p class="mensaje" id="ustedEs"></p>
+        <p class="mensaje" id="edad"></p>
+
+    </form>
+    <footer>
+        <p>Hecho por Rubén Palomo Fontán</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>

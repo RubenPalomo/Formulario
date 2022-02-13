@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(254,255,200);
+    background: linear-gradient(0deg, rgba(254,255,200,1) 0%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.formularioAll{
+    margin: 10px;
+}
+
+.formularios{
+    margin-left: 10px;
+}
+
+.botones{
+    text-align: center;
+    margin: 10px;
+}
+
+.boton{
+    margin: auto;
+}
+
+.boton:hover{
+    cursor: pointer;
+    text-shadow: 1px 0px 2px grey;
+}
+
+.mensaje{
+    width: 100%;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+}
+
+footer{
+    position: absolute;
+    margin-left: -8px;
+    background-color: orange;
+    text-shadow: 1px 1px 2px orangered;
+    text-align: right;
+    margin-top: 20vh;
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+    padding-right: 20px;
+}
